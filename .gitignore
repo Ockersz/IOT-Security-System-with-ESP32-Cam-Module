@@ -1,0 +1,23 @@
+# Local secrets (copy from secrets.example.h — never commit!)
+**/secrets.h
+secrets.h
+.env
+.env.*
+
+# Arduino / PlatformIO build outputs
+build/
+*.hex
+*.elf
+*.bin
+*.eep
+.pio/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*.log

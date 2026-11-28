@@ -11,9 +11,9 @@
 // Pin Assignments (ESP32 DevKit — PIR Motion Sensor Node)
 // ============================================================================
 static const gpio_num_t PIR_SENSOR_PIN = GPIO_NUM_4;  // RTC GPIO supporting EXT0 wakeup
-static const int RED_LED_PIN = GPIO_NUM_2;
-static const int GREEN_LED_PIN = GPIO_NUM_15;
-static const int BUZZER_PIN = GPIO_NUM_5;
+static const int RED_LED_PIN = GPIO_NUM_2;      // Alert indicator LED
+static const int GREEN_LED_PIN = GPIO_NUM_15;   // Armed / idle status LED
+static const int BUZZER_PIN = GPIO_NUM_5;       // Audible motion alarm buzzer
 
 // ============================================================================
 // Timing & Retry Configuration
